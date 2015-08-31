@@ -1,0 +1,11 @@
+#!/bin/bash
+
+REPO=$1
+
+echo "Creating $REPO"
+
+mkdir -p $1
+sed -e "s%REPO%$REPO%g" < Dockerfile.tmp > $1/Dockerfile
+sed -e "s%REPO%$REPO%g" < Makefile.tmp > $1/Makefile
+
+

@@ -1,0 +1,11 @@
+# REPO/Dockerfile
+# 
+# © 2015 David J Goehrig
+#
+
+FROM cthulhuology/REPO
+MAINTAINER Dave Goehrig <dave@dloh.org>
+
+CMD /bin/bash
+
+
