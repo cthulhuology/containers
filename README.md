@@ -17,4 +17,6 @@ Contents
 	* mojo		-	mojo-ide for programming embeddedmicro.com FPGA boards
 	* icestorm	-	open source tools for programing the Lattice iCE40HX-1k 
 	* synflow	-	Synflow 
+	* nodejs	-	node-0.12.7
+	* 
 
